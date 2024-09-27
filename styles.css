@@ -41,6 +41,10 @@ a {
     font-weight: 900;
 }
 
+.mainbody {
+    flex: 1;
+}
+
 .hero-sub-text {
     flex: 1;
     font-size: 18px;
@@ -82,6 +86,10 @@ a {
     margin-top: 10px;
 }
 
+.second-body {
+    padding: 16px;
+}
+
 .second-main-text {
     display: flex;
     font-size: 36px;
@@ -113,4 +121,80 @@ a {
     font-size: 18px;
     text-align: center;
     width: 200px;
+    margin: 15px 0;
+}
+
+.third-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    padding: 56px;
+    background-color: #E5E7EB;
+}
+
+.main-quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    display: flex;
+    font-weight: 900;
+    font-size: 30px;
+    justify-content: flex-end;
+}
+
+.fourth-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 56px;
+    height: 200px;
+
+}
+
+.blue-container {
+    display: flex;
+    background-color: #3882F6;
+    padding: 26px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    width: 900px;
+    height: 90px;
+    gap: 10px;
+}
+
+
+.cta-text {
+    color: #E5E7EB;
+    padding: 5px;
+}
+
+.cta-main-text {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.cta-button {
+    border: solid 2px #E5E7EB;
+    width: 150px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 100px;
 }
