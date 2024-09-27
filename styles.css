@@ -1,0 +1,85 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.button-link {
+    color: white;
+    font-weight: bold;
+}
+
+.hero-main-text {
+    flex: 1;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-sub-text {
+    flex: 1;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.first-body{
+    display: flex;
+    background-color: #1F2937;
+    padding: 36px;
+    height: 300px;
+}
+
+.hero-left-side {
+    flex: 1;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+}
+
+.image-placeholder {
+    display:flex;
+    flex: 1;
+    width: 800px;
+    height: 200px;
+    background-color: #3b4d66;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    height: 25px;
+    flex-shrink: 0;
+    margin-top: 10px;
+}
+
+
